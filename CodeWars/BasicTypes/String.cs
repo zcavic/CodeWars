@@ -16,5 +16,15 @@ namespace CodeWars.BasicTypes
 		/// <param name="str">String to check</param>
 		/// <returns>True if string is isogram, otherwise false</returns>
 		public static bool IsIsogram(string str) => str.ToLower().ToArray().Distinct().Count() == str.Count();
+
+		/// <summary>
+		/// Method capitalize first letter of each word in sentence
+		/// </summary>
+		/// <param name="phrase">Sentence</param>
+		/// <returns>Capitalized first letter of each word</returns>
+		public static string ToJadenCase(this string phrase)
+		{
+			return string.Join(" ", phrase.Split(' ').Select(x => char.ToUpper(x[0]) + x.Substring(1)).ToString());
+		}
 	}
 }
