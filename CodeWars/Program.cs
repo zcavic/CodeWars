@@ -1,4 +1,5 @@
-﻿using CodeWars.BasicTypes;
+﻿using CodeWars.Algorithms;
+using CodeWars.BasicTypes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace CodeWars
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine(Number.fib(-6));
+			Console.WriteLine(ScreenLockingPatterns.CountPatternsFrom('A', 3));
 			Console.ReadLine();
 		}
 	}

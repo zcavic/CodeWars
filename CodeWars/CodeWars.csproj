@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\Fibonacci.cs" />
+    <Compile Include="Algorithms\ScreenLockingPatterns.cs" />
     <Compile Include="BasicTypes\Number.cs" />
     <Compile Include="Collections\Array.cs" />
     <Compile Include="Program.cs" />
