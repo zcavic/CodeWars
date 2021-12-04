@@ -38,6 +38,7 @@
     <Compile Include="Algorithms\PrimePairSet.cs" />
     <Compile Include="Algorithms\ScreenLockingPatterns.cs" />
     <Compile Include="Algorithms\States.cs" />
+    <Compile Include="Algorithms\SudokuValidator.cs" />
     <Compile Include="Algorithms\Task2.cs" />
     <Compile Include="Algorithms\Tesk1.cs" />
     <Compile Include="Algorithms\TheGreatestCommonDivisor.cs" />
